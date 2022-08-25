@@ -16,7 +16,7 @@ import CompanyInfo from "./Component/CompanyInfo";
 import Shipping from "./Component/Shipping";
 function App() {
   return (
-    <>
+    < >
       <div>
         <TopNav />
         <Category />
@@ -37,7 +37,7 @@ function App() {
           <Footer />
         </BrowserRouter>
       </div>
-    </>
+    </;>
   );
 }
 
