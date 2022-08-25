@@ -9,38 +9,33 @@ import TeddyImage from "./images/Teddy Image.jpg";
 
 export default function Banner() {
   return (
-    <>
-                <div class="banner">
-               <div class="banner-content">
-                  <div class="banner-left">
-                     <div class="slider">
-                        <div class="wrapper">
-                          
-                           <div class="box">
-                              
-                              <div class="scroll">
-                                 <ul>
-                                    <li><img src={shoes}/></li>
-                                    <li><img src={girl}/></li>
-                                    <li><img src={iphone}/></li>
-                                    <li><img src={Clothes}/></li>
-                                    <li><img src={TeddyImage}/></li>
-                                  </ul>
+    <><div className="banner">
+               <div className="banner-content">
+                  <div className="banner-left">
+                     <div className="slider">
+                        <div className="wrapper">
+                           <div className="box">                              
+                              <div className="scroll">
+                                 
+                              <marquee width="60%" direction="up" height="200px" scrollamount="5">
+                              <img src={shoes}      width="100%" height="auto"          alt='..'  />
+                              <img src={girl}         width="100%" height="auto"        alt='..'   />
+                              <img src={iphone}    width="100%" height="auto"           alt='..'  />
+                              <img src={Clothes}            width="100%" height="auto"  alt='..'     />
+                              <img src={TeddyImage}    width="100%" height="auto"       alt='..'  />
+</marquee>
                               </div>
                            </div>
-                       
-                        
                         </div>
-                       
                      </div>
                   </div>
-                  <div class="banner-mid">
-                     <div class="banner-txt">India's largest E-commerce platform</div>
-                     <div class="larg-ecom-img">
+                  <div className="banner-mid">
+                     <div className="banner-txt">India's largest E-commerce platform</div>
+                     <div className="larg-ecom-img">
                         <img src={ecommerce} alt="India's largest e-commerce platform" />
                      </div>
                   </div>
-                  <div class="banner-right">
+                  <div className="banner-right">
                      <img src={man} alt="standing man" />
                   </div>
                </div>
@@ -48,3 +43,12 @@ export default function Banner() {
     </>
   )
 }
+
+
+// <ul>
+//                                     <li><img src={shoes}/></li>
+//                                     <li><img src={girl}/></li>
+//                                     <li><img src={iphone}/></li>
+//                                     <li><img src={Clothes}/></li>
+//                                     <li><img src={TeddyImage}/></li>
+//                                   </ul>

@@ -13,8 +13,7 @@ export default function BusinessGallery() {
     <>
       <div className="row">
         <div className="col">
-          <img src={Browse} alt=""style={{"width" : "40%", "height": "60px"}}
- />
+          <img src={Browse} alt=""style={{"width" : "40%", "height": "60px"}}/>
           
             <h4>Shop &amp; Browse</h4>
       

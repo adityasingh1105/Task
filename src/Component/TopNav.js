@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import profileuser from "./images/profile-user.png";
 export default function topNav() {
   return (
     <>
@@ -21,7 +22,7 @@ export default function topNav() {
             </span>
           </div>
           <div className="sell">
-            <a href="#">
+            <a  href="/#">
               <div className="become-seller">
                 <div id="sell-icon">
                   <i className="fa-solid fa-users"></i>
@@ -31,7 +32,7 @@ export default function topNav() {
             </a>
           </div>
           <div className="login">
-            <img src="images/profile-user.png" alt="" />
+            <img src={profileuser} alt="" />
             <h6>Login</h6>
           </div>
           <div>
