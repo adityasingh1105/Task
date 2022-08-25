@@ -13,6 +13,7 @@ import Details from "./Component/Details";
 import SectionGallery from "./Component/SectionGallery";
 import OurProduct from "./Component/OurProduct";
 import CompanyInfo from "./Component/CompanyInfo";
+import Shipping from "./Component/Shipping";
 function App() {
   return (
     <>
@@ -22,15 +23,16 @@ function App() {
         <Banner />
         <SectionGallery />
         <BusinessGallery />
-        <OurProduct /><CompanyInfo />
+        <OurProduct />
+        <CompanyInfo />
         <Details />
+
         <BrowserRouter>
           <Routes>
-            
-
             <Route exact path="/aboutus" element={<AboutUs />} />
             <Route exact path="/contactus" element={<ContactUs />} />
             <Route exact path="/payment" element={<Payment />} />
+            <Route exact path="/shipping" element={<Shipping />} />
           </Routes>
           <Footer />
         </BrowserRouter>

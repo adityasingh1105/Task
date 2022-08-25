@@ -33,7 +33,8 @@ export default function Footer() {
               <a href="/#">Help</a>
             </div>
             <Link to="/payment">Payment</Link>
-            <a href="/#">Shipping</a>
+            <Link to="/shipping">Shipping</Link>
+          
             <a href="/#">Cancellation & Return</a>
             <a href="/#">FAQ</a>
           </div>
