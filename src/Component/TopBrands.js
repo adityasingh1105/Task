@@ -36,32 +36,32 @@ export default function TopBrands() {
      
      <marquee width="100%" direction="left" height="200px" scrollamount="25">
 
-        <img src={b1}     className="sizech" />
-        <img src={b2}     className="sizech" />
-        <img src={b3}     className="sizech" />
-        <img src={b4}     className="sizech" />
-        <img src={b5}     className="sizech" />
-        <img src={b6}     className="sizech" />
-        <img src={b7}     className="sizech" />
-        <img src={b8}     className="sizech" />
-        <img src={b9}     className="sizech" />
-        <img src={b10}    className="sizech" />
-        <img src={b11}    className="sizech" />
-        <img src={b12}    className="sizech" />
-        <img src={b13}    className="sizech" />
-        <img src={b14}    className="sizech" />
-        <img src={b15}    className="sizech" />
-        <img src={b16}    className="sizech" />
-        <img src={b17}    className="sizech" />
-        <img src={b18}    className="sizech" />
-        <img src={b19}    className="sizech" />
-        <img src={b21}    className="sizech" />
-        <img src={b22}    className="sizech" />
-        <img src={b23}    className="sizech" />
-        <img src={b24}    className="sizech" />
-        <img src={b25}    className="sizech" />
-        <img src={b26}    className="sizech" />
-        <img src={b27}    className="sizech" />
+        <img src={b1}     className="sizech" alt="..." />
+        <img src={b2}     className="sizech" alt="..." />
+        <img src={b3}     className="sizech" alt="..." />
+        <img src={b4}     className="sizech" alt="..." />
+        <img src={b5}     className="sizech" alt="..." />
+        <img src={b6}     className="sizech" alt="..." />
+        <img src={b7}     className="sizech" alt="..." />
+        <img src={b8}     className="sizech" alt="..." />
+        <img src={b9}     className="sizech" alt="..." />
+        <img src={b10}    className="sizech" alt="..." />
+        <img src={b11}    className="sizech" alt="..." />
+        <img src={b12}    className="sizech" alt="..." />
+        <img src={b13}    className="sizech" alt="..." />
+        <img src={b14}    className="sizech" alt="..." />
+        <img src={b15}    className="sizech" alt="..." />
+        <img src={b16}    className="sizech" alt="..." />
+        <img src={b17}    className="sizech" alt="..." />
+        <img src={b18}    className="sizech" alt="..." />
+        <img src={b19}    className="sizech" alt="..." />
+        <img src={b21}    className="sizech" alt="..." />
+        <img src={b22}    className="sizech" alt="..." />
+        <img src={b23}    className="sizech" alt="..." />
+        <img src={b24}    className="sizech" alt="..." />
+        <img src={b25}    className="sizech" alt="..." />
+        <img src={b26}    className="sizech" alt="..." />
+        <img src={b27}    className="sizech" alt="..." />
  </marquee>
   </div>
 </div>

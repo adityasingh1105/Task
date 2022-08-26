@@ -1,8 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom";
+
 import Carousel from "react-elastic-carousel";
-import Item from "./Item";
-import arrow from "./images/arrow.png";
 import iphone from "./images/iphone.png";
 import girl from "./images/girl.jpg";
 import shoes from "./images/shoes.jpg";
