@@ -35,9 +35,10 @@ export default function Footer() {
             <Link to="/payment">Payment</Link>
             <Link to="/shipping">Shipping</Link>
             <Link to="/cancel">Cancellation & Return</Link>
+            <Link to="/faq">FAQ</Link>
           
       
-            <a href="/#">FAQ</a>
+          
           </div>
           <div className="f-about">
             <div className="f-h-about">
@@ -60,7 +61,7 @@ export default function Footer() {
             <div className="f-h-about">
               <a href="/#">Policy</a>
             </div>
-            <a href="/#">Return Policy</a>
+            <Link to="/return">Return Policy</Link>
             <a href="/#">Undelivered Shipping Policy</a>
             <a href="/#">Warehouse Return Policy</a>
             <a href="/#">Product Listing Policy</a>

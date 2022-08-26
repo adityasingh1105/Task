@@ -6,6 +6,15 @@ import Clothes from "./images/Clothes.jpg";
 import ecommerce from "./images/ecommerce.png";
 import man from "./images/man.jpg";
 import TeddyImage from "./images/Teddy Image.jpg";
+import SectioDemo from "./SectioDemo";
+import BusinessGallery from "./BusinessGallery"
+
+
+import Details from "./Details";
+import OurProduct from "./OurProduct";
+import CompanyInfo from "./CompanyInfo";
+
+import TopBrands from "./TopBrands";
 
 export default function Banner() {
   return (
@@ -40,6 +49,14 @@ export default function Banner() {
                   </div>
                </div>
             </div>
+            <SectioDemo/>
+            
+         
+  <BusinessGallery />
+        <TopBrands />
+        <OurProduct />
+        <CompanyInfo />
+        <Details /> 
     </>
   )
 }

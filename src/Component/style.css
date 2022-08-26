@@ -1128,9 +1128,9 @@ color: gray;
 }
 
 .sizech{
-  height: 65%;
-  width: 10px;
-  margin-left: 55px;
+  height: 100px;
+  width: 250px;
+  margin-left: 55px; margin-top: 50px;
 }
 
 
