@@ -34,8 +34,9 @@ export default function Footer() {
             </div>
             <Link to="/payment">Payment</Link>
             <Link to="/shipping">Shipping</Link>
+            <Link to="/cancel">Cancellation & Return</Link>
           
-            <a href="/#">Cancellation & Return</a>
+      
             <a href="/#">FAQ</a>
           </div>
           <div className="f-about">

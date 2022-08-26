@@ -14,14 +14,17 @@ import SectionGallery from "./Component/SectionGallery";
 import OurProduct from "./Component/OurProduct";
 import CompanyInfo from "./Component/CompanyInfo";
 import Shipping from "./Component/Shipping";
+import Cancel from "./Component/Cancel";
+import SectioDemo from "./Component/SectioDemo";
 function App() {
   return (
     < >
-      <div>
+      <div>  
         <TopNav />
         <Category />
         <Banner />
-        <SectionGallery />
+        <SectioDemo/>
+
         <BusinessGallery />
         <OurProduct />
         <CompanyInfo />
@@ -33,6 +36,7 @@ function App() {
             <Route exact path="/contactus" element={<ContactUs />} />
             <Route exact path="/payment" element={<Payment />} />
             <Route exact path="/shipping" element={<Shipping />} />
+            <Route exact path="/cancel" element={<Cancel />} />
           </Routes>
           <Footer />
         </BrowserRouter>
@@ -40,5 +44,4 @@ function App() {
     </>
   );
 }
-
 export default App;
